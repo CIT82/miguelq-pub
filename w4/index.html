@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="main.js"></script>
+    <title>Welcome to My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Welcome to My Website</h1>
+    </header>
+    <main class="main">
+        <section class="grid-item">
+            <h2>HTML Element 1</h2>
+            <h3 class="html-element-title">blockquote</h3>
+            <p>The blockquote HTML element indicates that the enclosed text is an extended quotation.</p>
+            <div>
+                <blockquote cite="https://www.huxley.net/bnw/four.html">
+                    <p>Gangstas! What's up guys?</p>
+                    <footer>- McLuvin, <cite>Superbad</cite></footer>
+                  </blockquote>
+                  <br>
+                  <img src="https://media2.giphy.com/media/opAuQg3LS5EWY/200w.gif" alt="Gangstas! What's up guys?" />
+            </div>
+        </section>
+        </section>
+        <section class="grid-item">
+            <h2>HTML Element 2</h2>
+            <h3 class="html-element-title">iframe</h3>
+            <p>The iframe HTML element represents a nested browsing context, 
+                embedding another HTML page into the current one. In this case I'm embedding 
+                a youtube video from my youtube channel, that I took when I went to the Eras Tour 
+                at Sofi Stadium last year. The video was shot in 4K. The reason I didn't use the video 
+                html element tag is that for youtube videos, the video tag wont work for youtube videos. 
+                The video HTML element is meant for urls with file extensions like .mp4</p>
+            <div>
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/momELJgMtqM" title="Love Story by Taylor Swift" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="grid-item">
+            <h2>HTML Element 3</h2>
+            <h3 class="html-element-title">input</h3>
+            <p>The input HTML element is used to create interactive controls for web-based forms 
+                in order to accept data from the user. There are many types of inputs.
+                This website shows the <a href="https://www.w3schools.com/tags/tag_input.asp" target="_blank">different types of input types</a>.
+            </p>
+            <div>
+                <!-- After selecting one of the radio buttons is selected and pressing submit
+                     the JavaScript function called showRadioButtonSelectedValue will be called.
+                     That function displays the selected value in an alert window. -->
+                <form id="rockForm" onsubmit="showRadioButtonSelectedValue()">
+                    <p>Which of these rock bands do you prefer:</p>
+                    <div class="rock-radio-buttons-container">
+                        <input type="radio" id="evanescence" name="preferedRockBand" value="Evanescence">
+                        <label for="evanescence">Evanescence</label><br>
+                        <input type="radio" id="grettavanfleet" name="preferedRockBand" value="Gretta Van Fleet">
+                        <label for="grettavanfleet">Gretta Van Fleet</label><br>
+                        <input type="radio" id="metallica" name="preferedRockBand" value="Metallica">
+                        <label for="metallica">Metallica</label><br>
+                        <input type="radio" id="avrillavigne" name="preferedRockBand" value="Avril Lavigne">
+                        <label for="avrillavigne">Avril Lavigne</label><br>            
+                        <input type="radio" id="pearljam" name="preferedRockBand" value="Pearl Jam">
+                        <label for="pearljam">Pearl Jam</label><br>                                   
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #5a3fc8;
+  color: #ffffff;
+}
+
+/* the style for the CSS Grid in the main section */
+.main {
+  display: grid;
+  /* a grid of 3 equal columns */
+  grid-template-columns: repeat(3, 1fr); 
+  /* space between grid items */
+  gap: 20px; 
+  /* padding between grid items */
+  padding: 20px;
+}
+
+.grid-item {
+  background-color: #ffb1c8;
+  padding: 20px;
+  text-align: center; 
+}
+
+/* style my element titles */
+.html-element-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #bf08b2;
+}
+
+/* style for blockquote element */
+blockquote {
+  margin: 0;
+}
+
+blockquote p {
+  padding: 15px;
+  background: #d1c7fa;
+  border-radius: 5px;
+}
+/* this inserts the quotes at the start of the quote quote */
+blockquote p::before {
+  content: "\201C";
+}
+/* this inserts the quotes at the end of the quote */
+blockquote p::after {
+  content: "\201D";
+}
+
+/* style for the div containining the radio buttons */
+.rock-radio-buttons-container {
+    text-align: left;
+    /* adding padding of 10 pixels so the submit button would
+       not be so close to the radio buttons */
+    padding-bottom: 10px;
+}
