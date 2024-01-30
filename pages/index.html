@@ -1,13 +1,152 @@
-<!doctype html>
-<html lang="en-US">
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Miguel</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miguel's Concert Bulletin Board</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
   </head>
-  <body>
-    <h1>This is me!</h1>
-    <h2>From My Local System</h2>
-    <img src="../images/miguelquezada.jpg" alt="Miguel" />
+  <body class="outline">
+    <header>
+        <nav>
+            <h1>Miguel's Concert Bulletin Board</h1>
+            <a href="index.html" class="navbar-link">Home</a> |
+            <a href="contact.html" class="navbar-link">Contact</a>
+        </nav> 
+    </header>
+    <main>
+      <section>
+        <div class="background-overlay"></div>
+        <h2>Concerts Coming to Fresno in 2024</h2>
+        <div id="poster-container">
+          <table>
+            <tr>
+              <td><img src="../images/posters/TrilogyTour.png" alt="Pitbull, Enrique Iglesias, Ricky Martin - Trilogy Tour" class="fresno-concerts"></td>
+            </tr>
+            <tr>
+              <td><img src="../images/posters/seinfeld.png" alt="Jerry Seinfeld Live" class="fresno-concerts"></td>
+            </tr>
+            <tr>
+              <td><img src="../images/posters/luismi.png" alt="Luis Miguel" class="fresno-concerts"></td>
+            </tr>                  
+            <tr>
+              <td><img src="../images/posters/brooksanddunn.png" alt="Brooks and Dunn - Reboot 2024 Tour" class="fresno-concerts"></td>
+            </tr>
+            <tr>
+              <td><img src="../images/posters/blink182.png" alt="Blink 182 - One More Time Tour" class="fresno-concerts"></td>
+            </tr>           
+          </table>
+        </div>
+      </section>
+      <section>
+        <h2>Recommended Videos of Artists Coming to Fresno</h2>
+        <div id="restaurant-container">
+          <table>
+            <tr>
+              <td class="artist-title">Enrique Iglesias</td>
+              <td><a href="https://www.youtube.com/watch?v=NUsoVlDFqZg" target="_blank" class="main-link">Bailando ft. Descemer Bueno, Gente De Zona</a></td>
+            </tr>
+            <tr>
+              <td class="artist-title">Enrique Iglesias</td>
+              <td><a href="https://www.youtube.com/watch?v=pRrjt4htXlE" target="_blank" class="main-link">Nunca Te Olvidaré</a></td>
+            </tr>      
+            <tr>
+              <td class="artist-title">Enrique Iglesias</td>
+              <td><a href="https://www.youtube.com/watch?v=5sye_VxmNZA" target="_blank" class="main-link">Bailamos</a></td>
+            </tr>                  
+            <tr>
+              <td class="artist-title">Pitbull</td>
+              <td><a href="https://www.youtube.com/watch?v=SmM0653YvXU" target="_blank" class="main-link">Rain Over Me ft. Marc Anthony</a></td>
+            </tr>       
+            <tr>
+              <td class="artist-title">Pitbull</td>
+              <td><a href="https://www.youtube.com/watch?v=CdXesX6mYUE" target="_blank" class="main-link">International Love ft. Chris Brown</a></td>
+            </tr>                            
+            <tr>
+              <td class="artist-title">Luis Miguel</td>
+              <td><a href="https://www.youtube.com/watch?v=VMJnlN8OkgI" target="_blank" class="main-link">La Media Vuelta</a></td>
+            </tr>         
+            <tr>
+              <td class="artist-title">Luis Miguel</td>
+              <td><a href="https://www.youtube.com/watch?v=by4I_10HbX4" target="_blank" class="main-link">La Incondicional</a></td>
+            </tr>     
+            <tr>
+              <td class="artist-title">Blink-182</td>
+              <td><a href="https://www.youtube.com/watch?v=k1BFHYtZlAU" target="_blank" class="main-link">Stay Together For The Kids</a></td>
+            </tr>                                   
+            <tr>
+              <td class="artist-title">Blink-182</td>
+              <td><a href="https://www.youtube.com/watch?v=fSKQRDq3RkM" target="_blank" class="main-link">One More Time</a></td>
+            </tr>                  
+            <tr>
+              <td class="artist-title">Blink-182</td>
+              <td><a href="https://www.youtube.com/watch?v=by4I_10HbX4" target="_blank" class="main-link">Anthem Part 3</a></td>
+            </tr>    
+            <tr>
+              <td class="artist-title">Blink-182</td>
+              <td><a href="https://www.youtube.com/watch?v=ROpj6QuD3Iw" target="_blank" class="main-link">What's My Age Again?</a></td>
+            </tr>             
+            <tr>
+              <td class="artist-title">Brooks & Dunn</td>
+              <td><a href="https://www.youtube.com/watch?v=d05tQrhNMkA" target="_blank" class="main-link">Boot Scootin' Boogie</a></td>
+            </tr>    
+            <tr>
+              <td class="artist-title">Brooks & Dunn</td>
+              <td><a href="https://www.youtube.com/watch?v=fZSiBj4vCiY" target="_blank" class="main-link">My Maria</a></td>
+            </tr>          
+            <tr>
+              <td class="artist-title">Brooks & Dunn</td>
+              <td><a href="https://www.youtube.com/watch?v=SpJdhC5E8Vg" target="_blank" class="main-link">Ain't Nothing 'Bout You</a></td>
+            </tr>  
+            <tr>
+              <td class="artist-title">Brooks & Dunn</td>
+              <td><a href="https://www.youtube.com/watch?v=vjENhIdDsic" target="_blank" class="main-link">You're Gonna Miss Me When I'm Gone</a></td>
+            </tr>              
+            <tr>
+              <td class="artist-title">Brooks & Dunn</td>
+              <td><a href="https://www.youtube.com/watch?v=SpJdhC5E8Vg" target="_blank" class="main-link">Neon Moon</a></td>
+            </tr>   
+            <tr>
+              <td class="artist-title">Jerry Seinfeld</td>
+              <td><a href="https://www.youtube.com/watch?v=FA4kxlObK9Q" target="_blank" class="main-link">Netflix is a Joke - Jerry on Married Men</a></td>
+            </tr>    
+            <tr>
+              <td class="artist-title">Jerry Seinfeld</td>
+              <td><a href="https://www.youtube.com/watch?v=6xIoegYONAg" target="_blank" class="main-link">Netflix is a Joke - Has had enough of Phones</a></td>
+            </tr>                                                                                        
+          </table>
+        </div>
+      </section>   
+      <section>
+        <h2>Recommended Places to Eat Before a Show</h2>
+        <div id="restaurant-container">
+          <table>
+            <tr>
+              <td><a href="https://www.firestonegrill.com/locations/dog-house-grill-fresno" target="_blank" class="main-link">Doghouse Grill</a></td>
+            </tr>
+            <tr>
+              <td><a href="https://www.pizzafactory.com/fresno/" target="_blank" class="main-link">Pizza Factory</a></td>
+            </tr>
+            <tr>
+              <td><a href="https://campuspointe.com/dine/hino-oishi/?location=hino-oishi_pin" target="_blank" class="main-link">Hinoi Ishi</a></td>
+            </tr>       
+          </table>
+        </div>
+      </section>      
+      <section>
+        <h2>Contact Us</h2>
+        <form action="">
+          <label>Name:</label>
+          <input type="text">
+          <label>Email:</label>
+          <input type="text">          
+          <label>Message:</label>
+          <textarea name="" id="" cols="30" rows="10"></textarea><br>
+          <button>Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>Copyright &copy Miguel</footer>
   </body>
 </html>

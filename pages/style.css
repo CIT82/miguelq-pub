@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.background-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../images/tower.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* ----------------------- */
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px 0;
+  /* border: 10px purple dashed; */
+  box-shadow: 0px 5px 8px #000000;
+  /* added sticky header */
+  position: sticky;
+  top: 0;
+  background-image: url('../images/banner1.png');
+  /* Center and prevent background image repetition */
+  background-position: center; /* Horizontally center the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-size: cover; /* Ensure image covers the header area */  
+}
+
+main {
+  margin: 15px;
+  padding: 15px;
+}
+
+footer {
+  background-color: #4018ad;
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+label {
+  display: block;
+}
+
+/* .outline {
+  border: 1px black solid;
+} */
+
+/* ----- Navbar link styles -----
+/* unvisited link */
+.navbar-link:link {
+  color: #ff01bb;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* visited link */
+.navbar-link:visited {
+  color: #ff66ff;
+  text-decoration: none;
+}
+
+/* mouse over link */
+.navbar-link:hover {
+  color: #aa70fc;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* selected link - active link (while being clicked) */
+.navbar-link:active {
+  color: green;
+  text-decoration: none;
+}
+/* ----- Navbar link styles -----
+
+/* ----- Main Section link styles -----
+/* unvisited link */
+.main-link:link {
+  color: #4018ad;
+  font-weight: bold;
+  text-decoration: none;
+  /* offset-x | offset-y | blur-radius | color */
+  text-shadow: 2px 2px 4px rgba(5, 1, 1, 0.6); 
+}
+
+/* visited link */
+.main-link:visited {
+  /* color: #ff66ff; */
+  /* color: #ff7490; */
+  color: #ff7490;
+  text-decoration: none;
+}
+
+/* mouse over link */
+.main-link:hover {
+  color: #9e32f7;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* selected link - active link (while being clicked) */
+.main-link:active {
+  color: #66f841;
+  text-decoration: none;
+}
+/* ----- Main Section link styles -----
+
+/* center the table in the div container */
+#poster-container table {
+  margin: 0 auto;
+  display: table; 
+}
+#restaurant-container table {
+  margin: 0 auto;
+  /* Ensure table layout is preserved */
+  display: table; 
+  text-align: left;
+}
+.artist-title {
+  color: #6923CC;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px 4px rgba(5, 1, 1, 0.6); 
+}
