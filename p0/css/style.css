@@ -1,6 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #EB1616;
+    --primary: #2985ee;
+    /* --primary: #EB1616; */
     --secondary: #191C24;
     --light: #6C7293;
     --dark: #000000;
@@ -286,4 +287,12 @@
 .testimonial-carousel .owl-dot.active {
     background: var(--dark);
     border-color: var(--primary);
+}
+/* 02/18/24 - MQ - Add Rock n Roll One Google Font */
+.font-rock-n-roll-one {
+    font-family: "RocknRoll One"; 
+}
+/* 02/18/24 - MQ - Add New Rocker One Google Font */
+.font-new-rocker {
+    font-family: "New Rocker"; 
 }
