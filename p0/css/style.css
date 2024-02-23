@@ -296,3 +296,11 @@
 .font-new-rocker {
     font-family: "New Rocker"; 
 }
+/* 02/22/24 - MQ - Add Reference Text Style */
+.reference-text {
+    font-size: 12px;
+}
+.reference-text-bold {
+    font-weight: bold;
+    font-size: 12px;
+}
