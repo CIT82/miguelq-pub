@@ -304,3 +304,44 @@
     font-weight: bold;
     font-size: 12px;
 }
+/* .test-border5 {
+    border: 1px solid #FF0000;
+} */
+.band-member-text {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "RocknRoll One"; 
+}
+.site-map-section-text {
+    color: #2985ee;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+/***** Site Map Link Styles *****/
+/* unvisited link */
+.site-map-link:link {
+    color: #BF08B2;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* visited link */
+.site-map-link:visited {
+    color: #FF66FF;
+    text-decoration: none;
+}
+/* mouse over link */
+.site-map-link:hover {
+    color: #66f841;
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* selected link */
+/* active link (while being clicked) */
+.site-map-link:active {
+    color: green;
+    text-decoration: none;
+}
+/***** Site Map Link Styles *****/
