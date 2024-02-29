@@ -319,7 +319,6 @@
     font-size: 16px;
 }
 
-
 /***** Site Map Link Styles *****/
 /* unvisited link */
 .site-map-link:link {
@@ -345,3 +344,15 @@
     text-decoration: none;
 }
 /***** Site Map Link Styles *****/
+
+.app-color-blue {
+    color: #2985ee;
+}
+
+.info-icon-color-blue {
+    color: #2985ee;
+}
+
+.test-color-red {
+    border: 1px solid red;
+}

@@ -1,18 +1,20 @@
 ## Todo
-- [ ] Update the title
-- [ ] Revise the navigation bar. Remove any unnecessary menu items.
+- [X] Update the title
+- [X] Revise the navigation bar. Remove any unnecessary menu items.
 - [ ] Revise the navigation bar. Create my own graphics for my navigation bar
-- [ ] Revise the left sidebar menu with my own categories.
-- [ ] Create a favicon.ico icon that will display in the web browser's tab bar
-- [ ] Revise main.js file with any JavaScript I used and remove and JavaScript that I am not using
+- [X] Revise the left sidebar menu with my own categories.
+- [X] Create a favicon.ico icon that will display in the web browser's tab bar
+- [X] Revise main.js file with any JavaScript I used and remove and JavaScript that I am not using
 - [ ] Revise style.css with css any new css classes I am using and remove any css class I am not using
-- [ ] The current template uses red and for the theme color, I will be switching that to a different color because I don't like red.
-- [ ] Add my .svg images I will be using in the img folder.
-- [ ] Revise how the left sidebar menu launches. Right now when I resize the browser to a small size the left menu launches on it's own. I will be switching that so that user has to press the hamburger button in the navigation bar in order to left the left menu.
-- [ ] Remove the footer. I will not be using a footer on my website.
-- [ ] Adde a site map
-- [ ] Replace the body content of the index.html page with my content.
-- [ ] Use the structure of the body of the index.html as a reference to create my other html pages.
-- [ ] The current template uses Font Awesome icons, I will replace those with my own svg icons.
+- [X] The current template uses red and for the theme color, I will be switching that to a different color because I don't like red.
+- [X] Add my .svg images I will be using in the images folder.
+- [X] Revise the left sidebar menu. Replace icons and links to my pages.
+- [X] Remove the footer from every page except the home page.
+- [X] Add a site map
+- [X] Replace the body content of the index.html page with my content.
+- [X] Use the structure of the body of the index.html as a reference to create my other html pages.
+- [X] Upate Font Awesome icons used by the template with my Font Awesome icons.
 - [ ] In the head section of index.html I will remove any CSS library references that I will not be using.
 - [ ] In the body section of index.html I will remove any JavaScript library references that I will not be using.
+- [X] Revised the Concert Calendar page. Added the ability to filter the concert table by Artist or City.
+- [X] Added the 2024 Tour Dates to every band page.
