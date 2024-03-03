@@ -18,3 +18,5 @@
 - [ ] In the body section of index.html I will remove any JavaScript library references that I will not be using.
 - [X] Revised the Concert Calendar page. Added the ability to filter the concert table by Artist or City.
 - [X] Added the 2024 Tour Dates to every band page.
+- [X] Added ticket links to all the tour dates.
+- [X] Added Contact Form page.

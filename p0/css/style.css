@@ -349,10 +349,68 @@
     color: #2985ee;
 }
 
+.button-blue {
+    background-color: #2985EE;
+    color: #FFFFFF;
+}
+
+.home-icon-color {
+    color: #FFFFFF;
+}
+
 .info-icon-color-blue {
     color: #2985ee;
 }
 
+.btn-primary {
+    background-color: #FF66FF;
+    border-color: #2985ee;
+}
+
 .test-color-red {
     border: 1px solid red;
+}
+
+/***** Ticket Button Link Styles *****/
+/* unvisited link */
+.tickets-link:link {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* visited link */
+.tickets-link:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/* mouse over link */
+.tickets-link:hover {
+    color: #FF66FF;
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* selected link */
+/* active link (while being clicked) */
+.tickets-link:active {
+    color: #BF08B2;
+    text-decoration: none;
+}
+/***** Ticket Button Link Styles *****/
+
+.form-label {
+    color: #FFFFFF;
+}
+
+/* set form inputs to have a white background color */
+.form-control {
+    background-color: #FFFFFF;
+}
+
+/* Add the following rule to maintain white background when focus is in any form input */
+.form-control:focus {
+    background-color: #FFFFFF;
+}
+/* The style for the message displayed on the page after the form is submitted */
+.sent-message {
+    color: #FFFFFF;
 }
