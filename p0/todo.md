@@ -5,7 +5,7 @@
 - [X] Revise the left sidebar menu with my own categories.
 - [X] Create a favicon.ico icon that will display in the web browser's tab bar
 - [X] Revise main.js file with any JavaScript I used and remove and JavaScript that I am not using
-- [ ] Revise style.css with css any new css classes I am using and remove any css class I am not using
+- [X] Revise style.css with css any new css classes I am using and remove any css class I am not using
 - [X] The current template uses red and for the theme color, I will be switching that to a different color because I don't like red.
 - [X] Add my .svg images I will be using in the images folder.
 - [X] Revise the left sidebar menu. Replace icons and links to my pages.
@@ -14,8 +14,8 @@
 - [X] Replace the body content of the index.html page with my content.
 - [X] Use the structure of the body of the index.html as a reference to create my other html pages.
 - [X] Upate Font Awesome icons used by the template with my Font Awesome icons.
-- [ ] In the head section of index.html I will remove any CSS library references that I will not be using.
-- [ ] In the body section of index.html I will remove any JavaScript library references that I will not be using.
+- [X] In the head section of index.html I will remove any CSS library references that I will not be using.
+- [X] In the body section of index.html I will remove any JavaScript library references that I will not be using.
 - [X] Revised the Concert Calendar page. Added the ability to filter the concert table by Artist or City.
 - [X] Added the 2024 Tour Dates to every band page.
 - [X] Added ticket links to all the tour dates.
